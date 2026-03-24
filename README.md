@@ -23,7 +23,7 @@ Generates IP address lists in `A.B.C.D` format with strong validation, safe exec
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/ipv4listing.git
+git clone https://github.com/mohitkashyap-code/ipv4listing.git
 cd ipv4listing
 chmod +x ipv4listing.sh
 ```
