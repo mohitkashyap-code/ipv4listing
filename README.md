@@ -26,7 +26,9 @@ Generates IP address lists in `A.B.C.D` format with strong validation, safe exec
 git clone https://github.com/your-username/ipv4listing.git
 cd ipv4listing
 chmod +x ipv4listing.sh
-▶️ Usage
+```
+
+## ▶️ Usage
 ./ipv4listing.sh
 
 Follow the interactive prompts:
@@ -39,13 +41,15 @@ C-Start -> 1
 C-End   -> 1
 D-Start -> 1
 D-End   -> 5
-📄 Example Output
+
+## 📄 Example Output
 192.168.1.1
 192.168.1.2
 192.168.1.3
 192.168.1.4
 192.168.1.5
-⚠️ Safety Features
+
+## ⚠️ Safety Features
 
 This tool is designed to prevent common mistakes:
 
@@ -54,35 +58,40 @@ Prevents reversed ranges (e.g., start > end)
 Warns before generating very large IP sets
 Prevents accidental file overwrite
 Cleans up temporary files on interruption or crash
-📊 Output Details
+
+## 📊 Output Details
 Default output file: ip_list.txt
 Custom filename supported
 Duplicate IPs are automatically removed
 Displays total number of generated IPs
-🧠 Use Cases
+
+## 🧠 Use Cases
 Feeding IP lists into tools like:
 nmap
 masscan
 Network testing / lab setups
 Scripting pipelines
 Quick IP range expansion without external dependencies
-🔧 Requirements
+
+## 🔧 Requirements
 Bash (>= 4.x recommended)
 Linux / Unix environment
-🛠️ Future Improvements (Optional)
+
+## 🛠️ Future Improvements (Optional)
 CIDR support (192.168.1.0/24)
 Non-interactive CLI mode (--range)
 Pipe/stream mode for automation
 Parallel generation for very large datasets
-📜 License
+
+## 📜 License
 
 MIT License
 
-👤 Author
+## 👤 Author
 
 Mohit Kashyap
 
-⭐ Notes
+## ⭐ Notes
 
 This project focuses on simplicity, safety, and usability rather than replacing advanced network tools.
 It is intended as a lightweight utility for quick IP list generation.
