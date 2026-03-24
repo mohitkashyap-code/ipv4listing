@@ -29,10 +29,14 @@ chmod +x ipv4listing.sh
 ```
 
 ## ▶️ Usage
+
+```bash
 ./ipv4listing.sh
+```
 
 Follow the interactive prompts:
 
+```bash
 A-Start -> 192
 A-End   -> 192
 B-Start -> 168
@@ -41,13 +45,17 @@ C-Start -> 1
 C-End   -> 1
 D-Start -> 1
 D-End   -> 5
+```
 
 ## 📄 Example Output
+
+```bash
 192.168.1.1
 192.168.1.2
 192.168.1.3
 192.168.1.4
 192.168.1.5
+```
 
 ## ⚠️ Safety Features
 
@@ -60,12 +68,14 @@ Prevents accidental file overwrite
 Cleans up temporary files on interruption or crash
 
 ## 📊 Output Details
+
 Default output file: ip_list.txt
 Custom filename supported
 Duplicate IPs are automatically removed
 Displays total number of generated IPs
 
 ## 🧠 Use Cases
+
 Feeding IP lists into tools like:
 nmap
 masscan
@@ -74,10 +84,12 @@ Scripting pipelines
 Quick IP range expansion without external dependencies
 
 ## 🔧 Requirements
+
 Bash (>= 4.x recommended)
 Linux / Unix environment
 
 ## 🛠️ Future Improvements (Optional)
+
 CIDR support (192.168.1.0/24)
 Non-interactive CLI mode (--range)
 Pipe/stream mode for automation
